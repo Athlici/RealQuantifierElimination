@@ -1,0 +1,153 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4139,        145]
+NotebookOptionsPosition[      3478,        122]
+NotebookOutlinePosition[      3845,        138]
+CellTagsIndexPosition[      3802,        135]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"ContourPlot3D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"10", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", 
+          RowBox[{"x", "^", "2"}]}], "+", 
+         RowBox[{"y", "^", "2"}], "+", 
+         RowBox[{"z", "^", "2"}], "-", "1"}], ")"}], "^", "3"}]}], "-", 
+     RowBox[{
+      RowBox[{"x", "^", "2"}], 
+      RowBox[{"z", "^", "3"}]}], "-", 
+     RowBox[{"10", 
+      RowBox[{"y", "^", "2"}], 
+      RowBox[{"z", "^", "3"}]}]}], "\[Equal]", "0"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", "1.5"}], ",", "1.5"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{"-", "1.5"}], ",", "1.5"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"z", ",", 
+     RowBox[{"-", "1.5"}], ",", "1.5"}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.777611984146825*^9, 3.77761207553163*^9}, {
+  3.777633558191915*^9, 
+  3.777633562067205*^9}},ExpressionUUID->"9fda40ad-7c4b-4251-bfbe-\
+1ef252083bf7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"10", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"2", 
+         RowBox[{"x", "^", "2"}]}], "+", 
+        RowBox[{"y", "^", "2"}], "+", 
+        RowBox[{"z", "^", "2"}], "-", "1"}], ")"}], "^", "3"}]}], "-", 
+    RowBox[{
+     RowBox[{"x", "^", "2"}], 
+     RowBox[{"z", "^", "3"}]}], "-", 
+    RowBox[{"10", 
+     RowBox[{"y", "^", "2"}], 
+     RowBox[{"z", "^", "3"}]}]}], "\[Equal]", "0"}], "/.", 
+  RowBox[{"x", "\[Rule]", "0"}]}]], "Input",
+ CellChangeTimes->{{3.777633572779833*^9, 
+  3.777633576654118*^9}},ExpressionUUID->"c2b13a5c-18be-488a-80ee-\
+aacfb5630cef"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "10"}], " ", 
+    SuperscriptBox["y", "2"], " ", 
+    SuperscriptBox["z", "3"]}], "+", 
+   RowBox[{"10", " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["y", "2"], "+", 
+       SuperscriptBox["z", "2"]}], ")"}], "3"]}]}], "\[Equal]", 
+  "0"}]], "Output",
+ CellChangeTimes->{
+  3.777633577443738*^9},ExpressionUUID->"c5de23bc-555f-4dac-982b-\
+854f4690f979"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"ContourPlot", "[", " ", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["y", "2"], "+", 
+       SuperscriptBox["z", "2"]}], ")"}], "3"], "\[Equal]", 
+    RowBox[{
+     SuperscriptBox["y", "2"], " ", 
+     SuperscriptBox["z", "3"]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{"-", "1.5"}], ",", "1.5"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"z", ",", 
+     RowBox[{"-", "1.5"}], ",", "1.5"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.777633580140613*^9, 
+  3.7776336553319607`*^9}},ExpressionUUID->"26ba7b66-0afe-4a67-8e2b-\
+2feb0ee070fe"]
+},
+WindowSize->{2560, 1600},
+WindowMargins->{{1281, Automatic}, {Automatic, 1}},
+Magnification:>2. Inherited,
+FrontEndVersion->"11.1 for Linux x86 (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1055, 32, 108, "Input", "ExpressionUUID" -> \
+"9fda40ad-7c4b-4251-bfbe-1ef252083bf7"],
+Cell[CellGroupData[{
+Cell[1638, 56, 653, 21, 64, "Input", "ExpressionUUID" -> \
+"c2b13a5c-18be-488a-80ee-aacfb5630cef"],
+Cell[2294, 79, 487, 17, 70, "Output", "ExpressionUUID" -> \
+"c5de23bc-555f-4dac-982b-854f4690f979"]
+}, Open  ]],
+Cell[2796, 99, 678, 21, 70, "Input", "ExpressionUUID" -> \
+"26ba7b66-0afe-4a67-8e2b-2feb0ee070fe"]
+}
+]
+*)
+
