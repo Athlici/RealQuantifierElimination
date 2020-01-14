@@ -1,21 +1,19 @@
 # RealQuantifierElimination
 Collection of material on RQE from my masters thesis.
 
-##QEPCAD
---------
+## QEPCAD
 Materials associated with the QEPCAD software.
 
-###build172.sh
+### build172.sh
 Build script for QEPCAD 1.72, mirrored from a Japanese source.
 
-###qepcad.sh
+### qepcad.sh
 Tiny QEPCAD wrapper for Mathematica. Sets an environment variable and the cell number (memory usage).
 
-###Interface.m
+### Interface.m
 Library of functions in Mathematica to export to and import from QEPCAD.
 
 ## Models
----------
 
 ### GuardQEP
 Quantifier Elimination Problem formulation of root types for resolution in Mathematica. Usefull only for small amount of roots.
@@ -24,7 +22,6 @@ Quantifier Elimination Problem formulation of root types for resolution in Mathe
 Quantifier Elimination Problem formulation of guards and virtual substitutions with real root types in QEPCAD. QEPCAD fails for degree 4 substitutions in polynomials of degree >=2.
 
 ## Other
---------
 
 ### MA
 Main document for my masters thesis, contains the algorithm, complexity derivations and more.
